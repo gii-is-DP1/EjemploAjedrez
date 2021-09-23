@@ -1,15 +1,20 @@
 <%@ page session="false" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="game" tagdir="/WEB-INF/tags" %>
+
 <!-- %@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %-->  
 
-<petclinic:layout pageName="home">
+<game:layout pageName="home">
     <h2><fmt:message key="welcome"/></h2>
     <div class="row">
         <div class="col-md-12">
-            <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
-            <img class="img-responsive" src="${petsImage}"/>
+            <game:board chessBoard="${chessBoard}"/>
+            <c:forEach items="${chessBoard.pieces}" var="piece">
+            	<game:piece size="100" piece="${piece}"/>
+            	
+            </c:forEach> 
         </div>
     </div>
-</petclinic:layout>
+</game:layout>
