@@ -12,8 +12,8 @@ import lombok.Setter;
 public class ChessPiece extends BaseEntity {
     String type;
     String color;
-    @Range(min=1,max=8)
+    @Range(min=0,max=7)
     int xPosition;
-    @Range(min=1,max=8)
+    @Range(min=0,max=7)
     int yPosition;
 }

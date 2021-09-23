@@ -31,8 +31,8 @@ public class WelcomeController {
 		  ChessPiece horseBlack=new ChessPiece();
 		  horseBlack.setColor("BLACK");
 		  horseBlack.setType("HORSE");
-		  horseBlack.setXPosition(2);
-		  horseBlack.setYPosition(2);
+		  horseBlack.setXPosition(1);
+		  horseBlack.setYPosition(1);
 		  result.setPieces(pieces);
 		  pieces.add(horseBlack);
 		  return result;
