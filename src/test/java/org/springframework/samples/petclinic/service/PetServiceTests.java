@@ -28,16 +28,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.dao.DataAccessException;
-import org.springframework.samples.petclinic.model.Owner;
-import org.springframework.samples.petclinic.model.Pet;
-import org.springframework.samples.petclinic.model.PetType;
-import org.springframework.samples.petclinic.model.Vet;
-import org.springframework.samples.petclinic.model.Visit;
-import org.springframework.samples.petclinic.model.User;
-import org.springframework.samples.petclinic.service.exceptions.DuplicatedPetNameException;
-import org.springframework.samples.petclinic.util.EntityUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import es.us.dp1.games.ajedrez.model.Owner;
+import es.us.dp1.games.ajedrez.model.Pet;
+import es.us.dp1.games.ajedrez.model.PetType;
+import es.us.dp1.games.ajedrez.model.User;
+import es.us.dp1.games.ajedrez.model.Vet;
+import es.us.dp1.games.ajedrez.model.Visit;
+import es.us.dp1.games.ajedrez.service.OwnerService;
+import es.us.dp1.games.ajedrez.service.PetService;
+import es.us.dp1.games.ajedrez.service.exceptions.DuplicatedPetNameException;
+import es.us.dp1.games.ajedrez.util.EntityUtils;
 
 /**
  * Integration test of the Service and the Repository layer.
