@@ -25,11 +25,11 @@ public class ChessPiece extends BaseEntity {
     
     
     public Integer getPositionXInPixels(Integer size) {
-    	return (xPosition-1)*size;
+    	return (xPosition)*size;
     }
     
     public Integer getPositionYInPixels(Integer size) {
-    	return (yPosition-1)*size;
+    	return (yPosition)*size;
     }
     
 }
