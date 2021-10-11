@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
-import es.us.dp1.games.ajedrez.model.Person;
+import es.us.dp1.games.chess.model.Person;
 
 /**
  * @author Michael Isvy Simple test to make sure that Bean Validation is working (useful

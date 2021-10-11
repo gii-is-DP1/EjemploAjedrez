@@ -8,13 +8,13 @@ import org.springframework.test.context.junit.jupiter.web.SpringJUnitWebConfig;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import es.us.dp1.games.ajedrez.configuration.SecurityConfiguration;
-import es.us.dp1.games.ajedrez.model.Owner;
-import es.us.dp1.games.ajedrez.service.AuthoritiesService;
-import es.us.dp1.games.ajedrez.service.OwnerService;
-import es.us.dp1.games.ajedrez.service.UserService;
-import es.us.dp1.games.ajedrez.service.VetService;
-import es.us.dp1.games.ajedrez.web.OwnerController;
+import es.us.dp1.games.chess.configuration.SecurityConfiguration;
+import es.us.dp1.games.chess.model.Owner;
+import es.us.dp1.games.chess.service.AuthoritiesService;
+import es.us.dp1.games.chess.service.OwnerService;
+import es.us.dp1.games.chess.service.UserService;
+import es.us.dp1.games.chess.service.VetService;
+import es.us.dp1.games.chess.web.OwnerController;
 
 import static org.hamcrest.Matchers.hasProperty;
 import static org.hamcrest.Matchers.is;

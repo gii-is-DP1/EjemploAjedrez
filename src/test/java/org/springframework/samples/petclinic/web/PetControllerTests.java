@@ -36,15 +36,15 @@ import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 
-import es.us.dp1.games.ajedrez.configuration.SecurityConfiguration;
-import es.us.dp1.games.ajedrez.model.Owner;
-import es.us.dp1.games.ajedrez.model.Pet;
-import es.us.dp1.games.ajedrez.model.PetType;
-import es.us.dp1.games.ajedrez.service.OwnerService;
-import es.us.dp1.games.ajedrez.service.PetService;
-import es.us.dp1.games.ajedrez.service.VetService;
-import es.us.dp1.games.ajedrez.web.PetController;
-import es.us.dp1.games.ajedrez.web.PetTypeFormatter;
+import es.us.dp1.games.chess.configuration.SecurityConfiguration;
+import es.us.dp1.games.chess.model.Owner;
+import es.us.dp1.games.chess.model.Pet;
+import es.us.dp1.games.chess.model.PetType;
+import es.us.dp1.games.chess.service.OwnerService;
+import es.us.dp1.games.chess.service.PetService;
+import es.us.dp1.games.chess.service.VetService;
+import es.us.dp1.games.chess.web.PetController;
+import es.us.dp1.games.chess.web.PetTypeFormatter;
 
 /**
  * Test class for the {@link PetController}

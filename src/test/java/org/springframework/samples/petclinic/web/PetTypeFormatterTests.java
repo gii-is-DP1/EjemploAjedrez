@@ -16,10 +16,10 @@ import java.util.Locale;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
-import es.us.dp1.games.ajedrez.model.PetType;
-import es.us.dp1.games.ajedrez.service.PetService;
-import es.us.dp1.games.ajedrez.service.VetService;
-import es.us.dp1.games.ajedrez.web.PetTypeFormatter;
+import es.us.dp1.games.chess.model.PetType;
+import es.us.dp1.games.chess.service.PetService;
+import es.us.dp1.games.chess.service.VetService;
+import es.us.dp1.games.chess.web.PetTypeFormatter;
 
 /**
  * Test class for {@link PetTypeFormatter}

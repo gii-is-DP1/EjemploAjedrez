@@ -10,11 +10,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import es.us.dp1.games.ajedrez.configuration.SecurityConfiguration;
-import es.us.dp1.games.ajedrez.model.Specialty;
-import es.us.dp1.games.ajedrez.model.Vet;
-import es.us.dp1.games.ajedrez.service.VetService;
-import es.us.dp1.games.ajedrez.web.VetController;
+import es.us.dp1.games.chess.configuration.SecurityConfiguration;
+import es.us.dp1.games.chess.model.Specialty;
+import es.us.dp1.games.chess.model.Vet;
+import es.us.dp1.games.chess.service.VetService;
+import es.us.dp1.games.chess.web.VetController;
 
 import static org.hamcrest.xml.HasXPath.hasXPath;
 import static org.mockito.BDDMockito.given;

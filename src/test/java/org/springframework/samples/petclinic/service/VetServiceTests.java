@@ -33,16 +33,16 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Transactional;
 
-import es.us.dp1.games.ajedrez.model.Authorities;
-import es.us.dp1.games.ajedrez.model.Owner;
-import es.us.dp1.games.ajedrez.model.Pet;
-import es.us.dp1.games.ajedrez.model.PetType;
-import es.us.dp1.games.ajedrez.model.User;
-import es.us.dp1.games.ajedrez.model.Vet;
-import es.us.dp1.games.ajedrez.model.Visit;
-import es.us.dp1.games.ajedrez.service.VetService;
-import es.us.dp1.games.ajedrez.service.exceptions.DuplicatedPetNameException;
-import es.us.dp1.games.ajedrez.util.EntityUtils;
+import es.us.dp1.games.chess.model.Authorities;
+import es.us.dp1.games.chess.model.Owner;
+import es.us.dp1.games.chess.model.Pet;
+import es.us.dp1.games.chess.model.PetType;
+import es.us.dp1.games.chess.model.User;
+import es.us.dp1.games.chess.model.Vet;
+import es.us.dp1.games.chess.model.Visit;
+import es.us.dp1.games.chess.service.VetService;
+import es.us.dp1.games.chess.service.exceptions.DuplicatedPetNameException;
+import es.us.dp1.games.chess.util.EntityUtils;
 
 /**
  * Integration test of the Service and the Repository layer.
