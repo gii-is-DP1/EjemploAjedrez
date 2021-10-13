@@ -7,7 +7,13 @@
 <!-- %@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %-->  
 
 <game:layout pageName="home">
+
+
     <h2><fmt:message key="welcome"/></h2>
+    
+    <p>	
+    <h2><c:out value="${now}"/></h2>
+
     <div class="row">
         <div class="col-md-12">
             <game:board chessBoard="${chessBoard}"/>
