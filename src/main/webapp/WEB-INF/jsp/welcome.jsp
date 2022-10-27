@@ -16,11 +16,11 @@
 
     <div class="row">
         <div class="col-md-12">
-            <game:board chessBoard="${chessBoard}"/>
+            <game:board chessBoard="${chessBoard}">
             <c:forEach items="${chessBoard.pieces}" var="piece">
-            	<game:piece size="100" piece="${piece}"/>
-            	
+            	<game:piece size="100" piece="${piece}"/>            	
             </c:forEach> 
+            </game:board>
         </div>
     </div>
 </game:layout>

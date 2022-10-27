@@ -19,7 +19,7 @@ public class WelcomeController {
 	
 	  @GetMapping({"/","/welcome"})
 	  public String welcome(Map<String, Object> model, HttpServletResponse response) {	    		
-		response.addHeader("Refresh","1"); 
+		//response.addHeader("Refresh","1"); 
 		model.put("now", new Date());
 		model.put("chessBoard",chessService.findById(1).get());
 	    return "welcome";

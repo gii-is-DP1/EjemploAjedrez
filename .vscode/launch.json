@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch PetclinicApplication",
             "request": "launch",
+            "mainClass": "es.us.dp1.games.chess.PetclinicApplication",
+            "projectName": "chess"
+        },
+        {
+            "type": "java",
+            "name": "Launch PetclinicApplication",
+            "request": "launch",
             "mainClass": "org.springframework.samples.petclinic.PetclinicApplication",
             "projectName": "spring-petclinic"
         },
